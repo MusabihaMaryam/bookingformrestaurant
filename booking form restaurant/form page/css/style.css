@@ -1,0 +1,467 @@
+.reservation-title h2,
+.form-heading h3,
+p.optional {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #FF6571;
+}
+
+.time_alert p {
+    margin-bottom: 30px;
+    background: #DCF9E8;
+    padding: 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.time_alert p span {
+    float: right;
+    font-weight: 700;
+}
+
+.all-times .owl-nav {
+    position: absolute;
+    right: 10px;
+    top: -67px;
+    font-size: 40px;
+    color: #999;
+}
+
+.all-times .owl-nav .owl-prev:focus {
+    outline: none;
+}
+
+.all-times .owl-nav .owl-prev span {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    line-height: 45px;
+    box-shadow: -2px 2px 2px #d3d3d3;
+    border-radius: 30px;
+}
+
+.all-times .owl-nav .owl-next:focus {
+    outline: none;
+}
+
+.all-times .owl-nav .owl-next span {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    line-height: 45px;
+    box-shadow: 2px 2px 2px #d3d3d3;
+    border-radius: 30px;
+}
+
+.apply-btn a {
+    text-align: center;
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FF6571;
+    font-size: 20px;
+}
+
+.booking-info {
+    position: relative;
+}
+
+.people-number,
+.booking-date {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.select-time {
+    margin-top: 75px;
+}
+
+.people-icon,
+.calender-icon {
+    display: inline-block;
+    /* float: left; */
+}
+
+.people-icon i.fa,
+.calender-icon i.fa {
+    color: #999;
+    font-size: 30px;
+}
+
+.select-people,
+.select-date {
+    width: 90%;
+    float: right;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+}
+
+.select-people p {
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #FF6571;
+}
+
+.select-people p i.fa {
+    float: right;
+    padding-right: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #999;
+}
+
+.date-picker-field {
+    position: relative;
+}
+
+.date-picker-field .form-control:focus {
+    box-shadow: none;
+}
+
+div#ui-datepicker-div {
+    width: 42%;
+}
+
+.date-picker-field i.fa {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translate(-2%, -50%);
+    font-size: 25px;
+    color: #999;
+}
+
+.date-picker-field input#datepicker {
+    border: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 0;
+}
+
+.date-picker-field input#datepicker::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #FF6571;
+}
+
+.date-picker-field input#datepicker:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #FF6571;
+    opacity: 1;
+}
+
+.date-picker-field input#datepicker::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #FF6571;
+    opacity: 1;
+}
+
+.date-picker-field input#datepicker:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #FF6571;
+}
+
+.date-picker-field input#datepicker::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #FF6571;
+;
+}
+
+.date-picker-field input#datepicker::placeholder {
+    /* Most modern browsers support this now. */
+    color: #FF6571;
+}
+
+.people-count ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.people-count ul li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.people-count ul li.selected {
+    background: #FF6571;
+    color: #ffffff;
+    border-radius: 50%
+}
+
+.people-count {
+    position: absolute;
+    top: 34px;
+    background: #fff;
+    z-index: 888;
+    padding: 20px 0;
+    box-shadow: 0 2px 2px #d3d3d3;
+    display: none
+}
+
+.time-section-title p {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.time-section-title p i.fa {
+    color: #FF6571;
+    font-size: 22px;
+}
+
+.single-time-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.single-time-block ul li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px #D3D3D3;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.single-time-block ul li:hover {
+    background: #F5F5F5;
+}
+
+.single-time-block ul li.selected {
+    background: #FF6571;
+    color: #ffffff;
+}
+
+.account-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.account-list ul li {
+    display: inline-block;
+}
+
+.account-list {
+    width: 100%;
+    text-align: center;
+}
+
+.account-list ul li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-right: 1px solid #ddd;
+}
+
+.account-list ul li a i.fab {
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.account-list ul li:last-child a {
+    border: none;
+}
+
+p.another-account {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FF6571;
+    margin-top: 50px;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+textarea.form-control {
+    border-radius: initial;
+}
+
+.from-group {
+    margin: 10px 0;
+}
+
+.info-options {
+    margin-top: 25px;
+}
+
+.info-options label {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+}
+
+button.reserve-btn {
+    background: #FF6571;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    float: right;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 35px;
+    box-shadow: 0 0 10px #999;
+    border-radius: 5px;
+}
+
+button.reserve-btn:focus {
+    outline: none;
+}
+
+/*responsive*/
+
+/* Mobile Devices (480px and below) */
+@media only screen and (max-width: 480px) {
+    .reservation-title h2, .form-heading h3, p.optional {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .time_alert p {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .all-times .owl-nav {
+        top: -50px;
+        font-size: 30px;
+    }
+    
+    .all-times .owl-nav .owl-prev span, .all-times .owl-nav .owl-next span {
+        width: 100px;
+        height: 40px;
+        line-height: 35px;
+    }
+    
+    .apply-btn a {
+        font-size: 18px;
+    }
+    
+    .people-icon i.fa, .calender-icon i.fa {
+        font-size: 25px;
+    }
+    
+    .select-people, .select-date {
+        width: 100%;
+    }
+    
+    .date-picker-field i.fa {
+        font-size: 20px;
+    }
+    
+    .people-count ul li {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .single-time-block ul li {
+        width: 45%;
+        font-size: 16px;
+    }
+    
+    .account-list ul li a {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    
+    button.reserve-btn {
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .reservation-title h2, .form-heading h3, p.optional {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    
+    .time_alert p {
+        font-size: 17px;
+        padding: 12px;
+    }
+    
+    .all-times .owl-nav {
+        top: -55px;
+        font-size: 35px;
+    }
+    
+    .all-times .owl-nav .owl-prev span, .all-times .owl-nav .owl-next span {
+        width: 120px;
+        height: 45px;
+        line-height: 40px;
+    }
+    
+    .apply-btn a {
+        font-size: 19px;
+    }
+    
+    .people-icon i.fa, .calender-icon i.fa {
+        font-size: 28px;
+    }
+    
+    .select-people, .select-date {
+        width: 90%;
+    }
+    
+    .date-picker-field i.fa {
+        font-size: 23px;
+    }
+    
+    .people-count ul li {
+        width: 35px;
+        height: 35px;
+        font-size: 17px;
+        line-height: 35px;
+    }
+    
+    .single-time-block ul li {
+        width: 40%;
+        font-size: 17px;
+    }
+    
+    .account-list ul li a {
+        font-size: 17px;
+        padding: 5px 20px;
+    }
+    
+    button.reserve-btn {
+        padding: 10px 25px;
+        margin-top: 25px;
+    }
+}

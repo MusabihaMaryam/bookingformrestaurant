@@ -1,0 +1,75 @@
+/*Medium Layout: 1280*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-time-block ul li {
+        width: 27%;
+    }
+    .all-times .owl-nav .owl-prev span,
+    .all-times .owl-nav .owl-next span {
+        width: 110px;
+        height: 40px;
+        line-height: 37px;
+    }
+    .time_alert p {
+        font-size: 1em;
+    }
+}
+
+
+/*Tablet Layout: 768px*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-time-block ul li {
+        width: 27%;
+    }
+    .all-times .owl-nav .owl-prev span,
+    .all-times .owl-nav .owl-next span {
+        width: 110px;
+        height: 40px;
+        line-height: 37px;
+    }
+    .time_alert p {
+        font-size: 1em;
+    }
+}
+
+
+/*Mobile Layout: 320px*/
+
+@media only screen and (max-width: 767px) {
+    .single-time-block ul li {
+        width: 27%;
+        margin: 5px;
+    }
+    .all-times .owl-nav .owl-prev span,
+    .all-times .owl-nav .owl-next span {
+        width: 80px;
+        height: 40px;
+        line-height: 37px;
+    }
+    .time_alert p {
+        font-size: 1em;
+    }
+    .logo {
+        text-align: center;
+    }
+    .account-list ul li a i.fab {
+        font-size: 20px;
+    }
+
+    .account-list ul li a {
+        padding: 5px 10px;
+    }
+    .select-people, .select-date {
+        width: 85%;
+    }
+    .calender-icon {
+        position: relative;
+        top: 15px;
+    }
+}
+
+
+/*Wide Mobile Layout: 480px*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

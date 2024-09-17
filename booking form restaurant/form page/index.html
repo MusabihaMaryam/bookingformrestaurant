@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Restaurant Booking Form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
+    <!--<link href="css/jquery-ui.min.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+<nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">M&Ms Restaurant</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="home.html">Back to HomePage</a></li>
+                        <!-- <li><a href="#">Book us</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <section class="content_area mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="reservation-title text-center">
+                                <h2>Complete Your Reservation</h2>
+                            </div>
+                            <div class="time_alert text-center">
+                                <p><i class="fa fa-clock"></i> <strong>Hurry Up!</strong> Your table will only be available for the next
+                                    <span>03:32</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reservation-form">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2">
+                                <div class="reserve-form">
+                                    <form action="#" method="get">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="reservation-details-merchant-info">
+                                                    <div class="booking-info">
+                                                        <div class="people-number">
+                                                            <div class="people-icon">
+                                                                <i class="fa fa-users"></i>
+                                                            </div>
+                                                            <div class="select-people">
+                                                                <p><span id="p_number">choose</span> peoples<i class="fa fa-angle-down"></i></p>
+                                                                <input type="hidden" id="people" name="people" value="2">
+                                                            </div>
+                                                            <div class="people-count">
+                                                                <ul>
+                                                                    <li data="1">1</li>
+                                                                    <li data="2" class="selected">2</li>
+                                                                    <li data="3">3</li>
+                                                                    <li data="4">4</li>
+                                                                    <li data="5">5</li>
+                                                                    <li data="6">6</li>
+                                                                    <li data="7">7</li>
+                                                                    <li data="8">8</li>
+                                                                    <li data="9">9</li>
+                                                                    <li data="10">10</li>
+                                                                    <li data="11">11</li>
+                                                                    <li data="12">12</li>
+                                                                    <li data="13">13</li>
+                                                                    <li data="14">14</li>
+                                                                    <li data="15">15</li>
+                                                                    <li data="16">16</li>
+                                                                    <li data="17">17</li>
+                                                                    <li data="18">18</li>
+                                                                    <li data="19">19</li>
+                                                                    <li data="20">20</li>
+                                                                    <li data="21">21</li>
+                                                                    <li data="22">22</li>
+                                                                    <li data="23">23</li>
+                                                                    <li data="24">24</li>
+                                                                    <li data="25">25</li>
+                                                                    <li data="26">26</li>
+                                                                    <li data="27">27</li>
+                                                                    <li data="28">28</li>
+                                                                    <li data="29">29</li>
+                                                                    <li data="30">30</li>
+                                                                    <li data="31">31</li>
+                                                                    <li data="32">32</li>
+                                                                    <li data="33">33</li>
+                                                                    <li data="34">34</li>
+                                                                    <li data="35">35</li>
+                                                                    <li data="36">36</li>
+                                                                    <li data="37">37</li>
+                                                                    <li data="38">38</li>
+                                                                    <li data="39">39</li>
+                                                                    <li data="40">40</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="booking-date">
+                                                            <div class="calender-icon">
+                                                                <i class="fa fa-calendar"></i>
+                                                            </div>
+                                                            <div class="select-date">
+                                                                <div class="date-picker-field">
+                                                                    <input class="form-control" type="text" id="datepicker" name="date_picker" placeholder="today (thursday)">
+                                                                    <i class="fa fa-angle-down"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="select-time">
+                                                            <div class="time-section-title">
+                                                                <p><i class="fa fa-clock"></i> choose a time:</p>
+                                                                <input type="hidden" id="selected_time" name="selected_time">
+                                                            </div>
+                                                            <div class="all-times owl-carousel">
+                                                                <div class="single-time-block">
+                                                                    <ul>
+                                                                        <li data="9:00" class="selected">9:00 am</li>
+                                                                        <li data="9:15">9:15 am</li>
+                                                                        <li data="9:30">9:30 am</li>
+                                                                        <li data="9:45">9:45 am</li>
+                                                                        <li data="10:00">10:00 am</li>
+                                                                        <li data="12:00">12:00 pm</li>
+                                                                        <li data="12:15">12:15 pm</li>
+                                                                        <li data="12:30">12:30 pm</li>
+                                                                        <li data="12:45">12:45 pm</li>
+                                                                        <li data="1:00">1:00 pm</li>
+                                                                        <li data="1:15">1:15 pm</li>
+                                                                        <li data="1:30">1:30 pm</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="single-time-block">
+                                                                    <ul>
+                                                                        <li data="1:45">1:45 pm</li>
+                                                                        <li data="2:00">2:00 pm</li>
+                                                                        <li data="2:15">2:15 pm</li>
+                                                                        <li data="2:30">2:30 pm</li>
+                                                                        <li data="2:45">2:45 pm</li>
+                                                                        <li data="3:00">3:00 pm</li>
+                                                                        <li data="3:15">3:15 pm</li>
+                                                                        <li data="3:30">3:30 pm</li>
+                                                                        <li data="3:45">3:45 pm</li>
+                                                                        <li data="4:00">4:00 pm</li>
+                                                                        <li data="4:10">4:15 pm</li>
+                                                                        <li data="4:30">4:30 pm</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="single-time-block">
+                                                                    <ul>
+                                                                        <li data="4:45">4:45 pm</li>
+                                                                        <li data="5:00">5:00 pm</li>
+                                                                        <li data="5:15">5:15 pm</li>
+                                                                        <li data="5:30">5:30 pm</li>
+                                                                        <li data="5:45">5:45 pm</li>
+                                                                        <li data="6:00">6:00 pm</li>
+                                                                        <li data="6:15">6:15 pm</li>
+                                                                        <li data="6:30">6:30 pm</li>
+                                                                        <li data="6:45">6:45 pm</li>
+                                                                        <li data="7:00">7:00 pm</li>
+                                                                        <li data="7:15">7:15 pm</li>
+                                                                        <li data="7:30">7:30 pm</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="single-time-block">
+                                                                    <ul>
+                                                                        <li data="7:45">7:45 pm</li>
+                                                                        <li data="8:00">8:00 pm</li>
+                                                                        <li data="8:15">8:15 pm</li>
+                                                                        <li data="8:30">8:30 pm</li>
+                                                                        <li data="8:45">8:45 pm</li>
+                                                                        <li data="9:00">9:00 pm</li>
+                                                                        <li data="9:15">9:15 pm</li>
+                                                                        <li data="9:30">9:30 pm</li>
+                                                                        <li data="9:45">9:45 pm</li>
+                                                                        <li data="10:00">10:00 pm</li>
+                                                                        <li data="10:15">10:15 pm</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <!--<div class="apply-btn">
+                                                            <a href="#">apply</a>
+                                                        </div>-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-heading">
+                                                    <h3>Continue with</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="md-form">
+                                                    <input type="email" id="email_address" class="form-control" required="required">
+                                                    <label for="email_address">email</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="md-form">
+                                                    <input type="text" id="f_name" class="form-control" required="required">
+                                                    <label for="f_name">First Name</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="md-form">
+                                                    <input type="text" id="l_name" class="form-control" required="required">
+                                                    <label for="l_name">Last Name</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="md-form">
+                                                    <input type="text" id="phone" class="form-control" required="required">
+                                                    <label for="phone">Phone No#</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <p class="another-account">or continue with an account</p>
+                                            <div class="account-list">
+                                                <ul>
+                                                    <li>
+                                                        <a style="color: #CC4A41" href="#" class="google">
+                                                            <i class="fab fa-google"></i> Google
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a style="color: rgb(63, 102, 185)" href="#" class="facebook">
+                                                            <i class="fab fa-facebook-f"></i> Facebook
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a style="color: #1AB2E8" href="#" class="twitter">
+                                                            <i class="fab fa-twitter"></i> twitter
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <p class="optional text-center w-100">optional</p>
+                                            <div class="col-md-12">
+                                                <div class="md-form">
+                                                    <input type="text" id="special-request" class="form-control" required="required">
+                                                    <label for="special-request">Special Request ?</label>
+                                                    <small id="special" class="form-text text-muted">
+                                                        E.g. dietary requirements, disabilities, etc.
+                                                    </small>
+                                                </div>
+                                                <div class="md-form">
+                                                    <input type="text" id="promo-code" class="form-control" required="required">
+                                                    <label for="promo-code">Apply promo code</label>
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label class="mt-5 d-block">
+                                                        <input type="checkbox" />
+                                                        <span>I agree to
+                                                        M&Ms Restaurant's <span style="color: #E65B66;">Terms & Conditions</span>
+                                                        and <span style="color: #E65B66;">Privacy
+                                                        Policy</span></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <button type="submit" id="submit_btn" name="submit_btn" class="reserve-btn">
+                                                    reserve now
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!--<script type="text/javascript" src="js/jquery-ui.min.js"></script>-->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            /*language choose*/
+            $('.menu-bar ul li').on('click', function() {
+                $('.menu-bar ul li ul').toggle(0);
+            });
+            /*select people*/
+            $('.select-people').on('click', function() {
+                $('.people-count').toggle(0);
+            });
+            /*select people number*/
+            $('.people-count ul li').click(function() {
+                $('.people-count ul li.selected').removeClass('selected');
+                $('.people-count').css("display", "none");
+            });
+            $('.people-count ul li').click(function() {
+                $(this).addClass('selected');
+            });
+            /*select time*/
+            $('.single-time-block ul li').click(function() {
+                $('.single-time-block ul li.selected').removeClass('selected');
+            });
+            $('.single-time-block ul li').click(function() {
+                $(this).addClass('selected');
+            });
+            $(function() {
+                $("#datepicker").datepicker();
+            });
+
+            /*get value for people section*/
+            $('.people-count ul li').click(function() {
+                $('#people').val($(this).attr('data'));
+                $('#p_number').html($(this).attr('data'));
+            });
+
+            /*get value for time section*/
+            $('.single-time-block ul li').click(function() {
+                $('#selected_time').val($(this).attr('data'));
+            });
+
+        });
+    </script>
+</body>
+
+</html>
